@@ -1,0 +1,24 @@
+-- CRIAÇÃO DA TABELA
+-- ================================================
+
+
+CREATE TABLE piadas(
+    id_piadas serial PRIMARY KEY,
+    texto TEXT NOT NULL
+);
+
+
+-- INSEÇÃO DE DADOS
+-- ================================================
+
+
+INSERT INTO piadas(texto) values('Uma pessoa Você conhece a piada do pônei? Pô nei eu');
+INSERT INTO piadas(texto) values('O que o pagodeiro foi fazer na igreja? Cantar pá God');
+INSERT INTO piadas(texto) values('O que o pato falou para a pata? Vem quá');
+
+
+-- SELEÇÃO DE DADOS
+-- ================================================
+
+
+SELECT * FROM piadas;
